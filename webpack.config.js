@@ -35,22 +35,26 @@ module.exports = () => {
             {
               src: "./assets/images/icon_96x96.png",
               type: "image/png",
-              sizes: "96x96"
+              sizes: "96x96",
+              "purpose": "maskable"
             },
             {
               src: "./assets/images/icon_128x128.png",
               type: "image/png",
-              sizes: "128x128"
+              sizes: "128x128",
+              "purpose": "maskable"
             },
             {
               src: "./assets/images/icon_192x192.png",
               type: "image/png",
-              sizes: "192x192"
+              sizes: "192x192",
+              "purpose": "maskable"
             },
             {
               src: "./assets/images/icon_512x512.png",
               type: "image/png",
-              sizes: "512x512"
+              sizes: "512x512",
+              "purpose": "maskable"
             }
           ],
         }),
